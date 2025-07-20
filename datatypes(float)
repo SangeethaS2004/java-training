@@ -1,0 +1,9 @@
+to get the input from user as the float:
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+	   float m=new Scanner(System.in).nextFloat();
+ System.out.println(n);
+		}}
