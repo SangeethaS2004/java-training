@@ -1,0 +1,30 @@
+Write the same program without using temp Variable
+Program:
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc= new Scanner(System.in);
+//char h=sc.next().charAt(0);
+int a=sc.nextInt();
+int b=sc.nextInt();
+//swaping with temp
+int c=b;
+b=a;
+a=c;
+System.out.printf("%d %d",a,b);
+// without temp logi 1
+a=a+b;
+b=a-b;
+a=a-b;
+System.out.printf("%d %d",a,b);
+//without temp logic 2
+a=a*b;
+b=a/b;
+a=a/b;
+System.out.printf("%d %d",a,b);
+//without  temp logic 3
+a=a^b;
+b=a^b;
+a=a^b;
+System.out.printf("%d %d",a,b);}}
